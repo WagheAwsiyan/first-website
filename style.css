@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_1280.jpg) no-repeat center center fixed;
+
+    background-size: cover;
+    backdrop-filter: blur(3px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.container {
+    height: 280px;
+    width: 550px;
+    background-color: rgba(12, 12, 12, 0.466);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    position: relative;
+
+}
+
+.container img {
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.container h1 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.info {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.info p {
+    padding: 3px;
+
+}
+
+.info #third {
+    margin-top: 7px;
+
+}
+
+.left {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+p {
+    font-weight: bolder;
+}
